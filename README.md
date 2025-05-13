@@ -9,3 +9,9 @@ Note: It does not compare the values or contents of objects, only their identity
 Use is when you need to verify if two variables point to the same object or when checking for None.
 Use in when you need to check if an element exists within an iterable.
 Understanding the distinction between identity (is) and membership (in) is crucial for writing correct and efficient Python code.
+
+| Operator | Kya karta hai?                | Example Result   |
+| -------- | ----------------------------- | ---------------- |
+| `is`     | Identity check (same object?) | `a is b`         |
+| `in`     | Membership check (inside?)    | `3 in [1, 2, 3]` |
+
